@@ -209,6 +209,7 @@ main{
 .solution{
     flex: 1;
     text-align: left;
+    max-width: 520px;
 }
 
 .span h5{
@@ -223,17 +224,33 @@ main{
     margin-bottom: 24px;
 }
 
+.solution-copy{
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+}
+
 .solution ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px 24px;
 }
 
 .solution li{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 12px;
     margin-bottom: 16px;
     font-size: 14px;
     color: var(--text-muted);
+}
+
+.solution li img{
+    width: 20px;
+    margin-top: 4px;
 }
 
 .last-one{

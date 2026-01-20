@@ -16,9 +16,10 @@
     <div class="page-shell">
         <header class="site-header">
             <a class="brand" href="#home" aria-label="TechWave">
-                <img src="assets/img/headphone.png" alt="TechWave logo" />
-                <span>TechWave</span>
+                <span class="brand-tech">Tech</span>
+                <span class="brand-wave">Wave</span>
             </a>
+            <span class="header-divider" aria-hidden="true"></span>
             <input type="checkbox" id="nav-toggle" class="nav-toggle" />
             <label class="hamburger" for="nav-toggle">
                 <img src="assets/img/hamburger-menu.png" alt="Navigation menu" />
@@ -28,7 +29,11 @@
                 <a href="#episodes">Episodes</a>
                 <a href="#host">Host</a>
             </nav>
-            <a class="btn btn-gradient" href="#episodes">Subscribe →</a>
+            <span class="header-divider" aria-hidden="true"></span>
+            <a class="btn btn-gradient" href="#episodes">
+                Subscribe
+                <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
         </header>
 
         <main>
@@ -113,7 +118,7 @@
                         <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
                     </article>
                     <article class="feature-card feature-card--exclusive">
-                        <img src="assets/img/microphone.png" alt="Exclusive interviews" />
+                        <img src="assets/img/zap-fast.png" alt="Exclusive interviews" />
                         <h3>Exclusive Interviews</h3>
                         <p>
                             Get unprecedented access to industry titans, startup founders, and tech visionaries.
@@ -133,31 +138,43 @@
                 </div>
                 <div class="episode-grid">
                     <article>
-                        <div class="episode-image">
-                            <img src="assets/img/hero-circle.png" alt="The Future of AI in Everyday Life" />
-                            <button class="play" aria-label="Play episode"></button>
+                        <div class="episode-video">
+                            <iframe src="https://www.youtube.com/embed/uKM3hEbLEOg?si=_3XcepCabcyKhDoe"
+                                title="The Future of AI in Everyday Life"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
-                        <h3>The Future of AI in Everyday Life</h3>
-                        <p>Exploring how artificial intelligence is transforming daily routines and what to expect.</p>
-                        <span class="duration">42 min</span>
+                        <div class="episode-body">
+                            <h3>The Future of AI in Everyday Life</h3>
+                            <p>Exploring how artificial intelligence is transforming daily routines and what to expect.</p>
+                            <span class="duration">42 min</span>
+                        </div>
                     </article>
                     <article>
-                        <div class="episode-image">
-                            <img src="assets/img/hero-circle.png" alt="Building Better Habits for Remote Work" />
-                            <button class="play" aria-label="Play episode"></button>
+                        <div class="episode-video">
+                            <iframe src="https://www.youtube.com/embed/LDU_Txk06tM"
+                                title="Building Better Habits for Remote Work"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
-                        <h3>Building Better Habits for Remote Work</h3>
-                        <p>Practical strategies for staying productive and maintaining work-life balance.</p>
-                        <span class="duration">35 min</span>
+                        <div class="episode-body">
+                            <h3>Building Better Habits for Remote Work</h3>
+                            <p>Practical strategies for staying productive and maintaining work-life balance.</p>
+                            <span class="duration">35 min</span>
+                        </div>
                     </article>
                     <article>
-                        <div class="episode-image">
-                            <img src="assets/img/hero-circle.png" alt="Career Growth in Tech" />
-                            <button class="play" aria-label="Play episode"></button>
+                        <div class="episode-video">
+                            <iframe src="https://www.youtube.com/embed/SYe-x9ZQF7o?si=pnRCKupvUKoX8tN7"
+                                title="Career Growth in Tech: A Roadmap"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
-                        <h3>Career Growth in Tech: A Roadmap</h3>
-                        <p>Expert advice on navigating your tech career from junior developer to senior leader.</p>
-                        <span class="duration">51 min</span>
+                        <div class="episode-body">
+                            <h3>Career Growth in Tech: A Roadmap</h3>
+                            <p>Expert advice on navigating your tech career from junior developer to senior leader.</p>
+                            <span class="duration">51 min</span>
+                        </div>
                     </article>
                 </div>
             </section>
@@ -186,6 +203,9 @@
                             <a href="https://instagram.com" aria-label="Instagram">
                                 <img src="assets/img/instagram.png" alt="Instagram" />
                             </a>
+                            <a href="https://youtube.com" aria-label="YouTube">
+                                <img src="assets/img/youtube.png" alt="YouTube" />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +214,10 @@
 
         <footer class="site-footer">
             <div class="footer-wave" aria-hidden="true"></div>
-            <h2>TechWave</h2>
+            <h2 class="footer-title">
+                <span class="brand-tech">Tech</span>
+                <span class="brand-wave">Wave</span>
+            </h2>
             <div class="footer-platforms">
                 <a href="https://spotify.com" class="platform-item">
                     <img src="assets/img/spotify.png" alt="Spotify" />

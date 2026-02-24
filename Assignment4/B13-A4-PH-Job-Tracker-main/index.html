@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Tracker</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Job Application Tracker</h1>
+    </header>
+
+    <main>
+        <!-- Dashboard Section -->
+        <section class="dashboard">
+            <div class="dashboard-card">
+                <h3>Total Jobs</h3>
+                <p id="total-jobs">0</p>
+            </div>
+            <div class="dashboard-card">
+                <h3>Interview</h3>
+                <p id="interview-count">0</p>
+            </div>
+            <div class="dashboard-card">
+                <h3>Rejected</h3>
+                <p id="rejected-count">0</p>
+            </div>
+        </section>
+
+        <!-- Available Jobs Section -->
+        <section class="available-jobs">
+            <div class="section-header">
+                <h2>Available Jobs</h2>
+                <p id="jobs-count">0 Jobs</p>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="all">All</button>
+                <button class="tab-btn" data-tab="interview">Interview</button>
+                <button class="tab-btn" data-tab="rejected">Rejected</button>
+            </div>
+
+            <!-- Job Cards Container -->
+            <div id="jobs-container" class="jobs-container">
+                <!-- Job cards will be dynamically inserted here -->
+            </div>
+
+            <!-- No Jobs Message -->
+            <div id="no-jobs-message" class="no-jobs-message" style="display: none;">
+                <img src="assets/jobs.png" alt="No jobs available" class="no-jobs-image">
+                <h3>No Jobs Available</h3>
+                <p>Check back soon for new job opportunities</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

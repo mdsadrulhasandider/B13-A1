@@ -1,0 +1,16 @@
+{
+    // আগের কনফিগ বজায়
+    "java.configuration.updateBuildConfiguration": "automatic",
+
+    // Workspace trust নিশ্চিত
+    "security.workspace.trust.enabled": true,
+    "security.workspace.trust.emptyWindow": "trust",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.banner": "never",
+
+    // যেসব ফোল্ডারে আমাকে কাজ করতে দিতে চান সেগুলো তালিকাভুক্ত করুন
+    "workbench.trustedFolders": [
+        "c:\\xampp\\htdocs"
+
+    ]
+}
